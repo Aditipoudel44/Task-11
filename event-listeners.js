@@ -45,19 +45,4 @@ document.addEventListener("DOMContentLoaded", () => {
             console.log(`Button ${btn.textContent} clicked`);
         });
     });
-    const parentDiv = document.createElement("div");
-    parentDiv.style.border = "2px solid black";
-    parentDiv.style.padding = "10px";
-    parentDiv.textContent = "Parent Div";
-    const childDiv = document.createElement("div");
-    childDiv.style.border = "2px dashed red";
-    childDiv.style.margin = "5px";
-    childDiv.textContent = "Child Div";
-    parentDiv.appendChild(childDiv);
-    document.body.appendChild(parentDiv);
-    parentDiv.addEventListener("click", () => alert("Parent Clicked"));
-    childDiv.addEventListener("click", (e) => {
-        alert("Child Clicked");
-        e.stopPropagation();
-    });
 });
