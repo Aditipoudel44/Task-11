@@ -44,7 +44,7 @@ input:focus {
 #hover-div {
     width: 150px;
     height: 150px;
-    background-color: lightblue;
+    background-color: lightpink;
     margin: 10px;
     display: flex;
     align-items: center;

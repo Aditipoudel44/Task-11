@@ -8,13 +8,13 @@ document.addEventListener("DOMContentLoaded", () => {
     newItem.textContent = "This list item is added using JavaScript!";
     dynamicList.appendChild(newItem);
 
-    image.src="dom-image.png";
+    image.src="Document-object-model.png";
 
     inputField.addEventListener("input", () => {
         inputDisplay.textContent = inputField.value;
     });
 
-    const fruits = ["Apple", "Banana", "Mango", "Orange"];
+    const fruits = ["Blueberry", "Kiwi", "Mango", "Dragonfruit"];
     fruits.forEach(fruit => {
         const li = document.createElement("li");
         li.textContent = fruit;

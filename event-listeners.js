@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
         hoverDiv.style.backgroundColor = "orange";
     });
     hoverDiv.addEventListener("mouseleave", () => {
-        hoverDiv.style.backgroundColor = "lightblue";
+        hoverDiv.style.backgroundColor = "lightpink";
     });
     const keyInput = document.getElementById("key-input");
     const typedValue = document.getElementById("typed-value");
