@@ -10,6 +10,6 @@ document.addEventListener("DOMContentLoaded", () => {
     console.log(allParagraphs);
     console.log(queryHeading);
     console.log(queryAllParagraphs);
-    heading.textContent = "DOM Basics in Action!";
+    heading.textContent = "DOM Basics!";
     paragraphs[0].innerHTML = "This paragraph demonstrates how JavaScript can update HTML content dynamically!";
 });
